@@ -1,0 +1,60 @@
+body {
+	background-image: url("../images/lava.jpg");
+}
+
+.jumbotron {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+
+    
+}
+
+#gameSection {
+    background-image: url("../images/party.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+}
+
+#scoreSection {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+}
+#buttonSection {
+	padding: 0px;
+	padding-top: 50px;
+    padding-bottom: 25px;
+    color: whitesmoke;
+}
+h1, h2, h3 {
+	font-family: 'Alfa Slab One', cursive;
+}
+
+p {
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.numberBox {
+	font-size: 100px;
+	margin: 0px;
+}
+.icons {
+	display: inline-block;
+  	max-width: 69px;
+  	max-height: 69px;
+  	width: auto;
+  	height: auto;
+  	margin:5px;
+}
+

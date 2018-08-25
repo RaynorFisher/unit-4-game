@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RAGNAROS ROYALE </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Ek+Mukta" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+	<div class="container-fluid" id="mainBox">
+		<div class="jumbotron">
+
+			<h1 class="text-center">Rumble with Ragnaros!</h1>
+
+			<h2 class="text-center">Instructions</h2>
+
+			<p class="text-center">
+				Ragnaros has a certain amount of health! Click the spells to match your attack points with the health given. Spell attack values are random each new game! Figure out what each spell is worth to defeat Ragnaros exactly!
+			</p>
+			<p class="text-center">
+				To win, match your attack points to Ragnaros' health, but you lose if you go over! 
+			</p>
+
+		</div>
+		<div class="row" id="gameSection">
+
+			<div class="col-md-3" id="numberSection">
+				<h3 class="text-center" id="random">Ragnaros Health:</h3>
+				<h1 class="numberBox text-center" id="randomNumber">120</h1>
+			</div>
+
+			<div class="col-md-6 text-center" id="buttonSection">
+				<button id="button-1" value="0"><img src="assets/images/sword.jpg" class="img-responsive icons" id="icon1"></button>
+				<button id="button-2" value="0"><img src="assets/images/hammer.jpg" class="img-responsive icons" id="icon2"></button>
+				<button id="button-3" value="0"><img src="assets/images/priest.jpg" class="img-responsive icons" id="icon3"></button>
+				<button id="button-4" value="0"><img src="assets/images/wand.jpg" class="img-responsive icons" id="icon4"></button>
+
+			</div>
+			<div class="col-md-3" id="totalPoints">
+				<h3 class="text-center" id="score">Attack Power Total:</h3>
+				<h1 class="numberBox text-center" id="totalNumber">0</h1>
+			</div>
+
+		</div>
+		<div class="row" id="scoreSection">
+
+			<div class="col-md-4"></div>
+
+		
+			<div class="col-md-2" id="winSection">
+				<h3 class="text-center" id="wins">Wins:	0</h3>
+            </div>
+            
+			<div class="col-md-2" id="lossSection">
+				<h3 class="text-center" id="losses">Losses: 0</h3>
+			</div>
+			<div class="col-md-4"></div>
+
+		</div>
+
+	</div>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
